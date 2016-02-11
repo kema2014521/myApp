@@ -1,0 +1,82 @@
+{
+    "data":[
+        {
+        	"name": "The Pavilion on Berry",
+        	"image": "image-1.jpg",
+        	"price": 512,
+        	"popularity": 4,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {        	
+        	"name": "Radius @15th",
+        	"image": "image-2.jpg",
+        	"price": 492,
+        	"popularity": 5,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "416 Lofts",
+        	"image": "image-3.jpg",
+        	"price": 460,
+        	"popularity": 3,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "Edge on Oak",
+        	"image": "image-4.jpg",
+        	"price": 521,
+        	"popularity": 3,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "thwork on moutain",
+        	"image": "image-5.jpg",
+        	"price": 810,
+        	"popularity": 2,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "fluat on canvas",
+        	"image": "image-1.jpg",
+        	"price": 500,
+        	"popularity": 7,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "Edge on Oak",
+        	"image": "image-2.jpg",
+        	"price": 421,
+        	"popularity": 1,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "Edge on Oak",
+        	"image": "image-3.jpg",
+        	"price": 700,
+        	"popularity": 3,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "Edge on Oak",
+        	"image": "image-4.jpg",
+        	"price": 502,
+        	"popularity": 8,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+
+        	"name": "Edge on Oak",
+        	"image": "image-10.jpg",
+        	"price": 572,
+        	"popularity": 4,
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        }
+        ]
+}

@@ -1,0 +1,112 @@
+{
+    "data":[
+        {
+            "id":1,
+        	"name": "The Pavilion on Berry",
+        	"image": "image-1.jpg",
+        	"price": 512,
+        	"popularity": 4,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {      
+            "id":2,
+        	"name": "Radius @15th",
+        	"image": "image-2.jpg",
+        	"price": 492,
+        	"popularity": 5,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":3,
+        	"name": "416 Lofts",
+        	"image": "image-3.jpg",
+        	"price": 460,
+        	"popularity": 3,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":4,
+        	"name": "Edge on Oak",
+        	"image": "image-4.jpg",
+        	"price": 521,
+        	"popularity": 3,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":5,
+        	"name": "thwork on moutain",
+        	"image": "image-5.jpg",
+        	"price": 810,
+        	"popularity": 2,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":6,
+        	"name": "Newark on Oak",
+        	"image": "image-6.jpg",
+        	"price": 500,
+        	"popularity": 7,
+            "location": "Newwark,NJ",
+        	"description": "University of Princton, Newyark village, NJ"
+        },
+        {
+            "id":7,
+        	"name": "flower on canvas",
+        	"image": "image-7.jpg",
+        	"price": 421,
+        	"popularity": 1,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":8,
+        	"name": "sweet grass",
+        	"image": "image-8.jpg",
+        	"price": 700,
+        	"popularity": 3,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":9,
+        	"name": "fly on sky",
+        	"image": "image-9.jpg",
+        	"price": 502,
+        	"popularity": 8,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":10,
+        	"name": "cak on ground",
+        	"image": "image-10.jpg",
+        	"price": 572,
+        	"popularity": 4,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        },
+        {
+            "id":11,
+        	"name": "Village on Haword",
+        	"image": "image-11.jpg",
+        	"price": 502,
+        	"popularity": 4,
+            "location": "Dedham,MA",
+        	"description": "Popular view, near sea, MA"
+        },
+        {
+            "id":12,
+        	"name": "river everywhere",
+        	"image": "image-12.jpg",
+        	"price": 5672,
+        	"popularity": 3,
+            "location": "Minneapolis,MN",
+        	"description": "University of Minnesota, Twin Cities Minneapolis, MN"
+        }
+        ]
+}

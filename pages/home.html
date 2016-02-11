@@ -1,0 +1,145 @@
+<!-- access to MainCtrl.scope-->
+<!-- pagination directive-->
+
+<section class="tb-section-1">
+    <div class="container">
+        <div class="row tb-title">
+            <div class="col-lg-12 text-center">
+                <h1>Having some idea to look?</h1>
+                <p>The houses are so great to be explored!</p>
+                <div>
+                    <a href="#" class="btn tb-btn-bbg">Our Tour</a>
+                    <a href="#" class="btn tb-btn-bbg2">Sign Up</a>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <nav>
+              <create-pages style="display:none" number-per-page="{{nPage}}" pages="pages" page-content="pageContent" page-limit="{{pageMax}}"></create-pages>  
+            
+              <!-- paginate-->
+              <div class="list" ng-controller="PaginationController" >
+    
+              <ul stype="position:relative;top:30px" class="pagination" style="float:left">
+                  
+                  
+                <li ng-class="{disabled: isFirstPage()}" pagination-left ><a>&laquo;</a></li>
+                 
+                <li pagination ng-class="{active: page == getCurrentPage() }" page="{{page}}"                       ng-repeat="page in pages">
+                       <a>{{page}}</a>
+                </li>
+                  
+                <li ng-class="{disabled: isLastPage()}" pagination-right ><a>&raquo;</a></li>
+                  
+              </ul>
+    
+        </div> 
+
+            </nav>
+
+
+            
+       </div>
+                
+       <!-- load image content & description
+       <div class="row text-center">
+            <div class="col-lg-10 col-lg-offset-1"> 
+            </div>
+        </div>
+        -->
+    
+    <!--
+        <div class="paragraphs">
+            
+          <div class="row">
+           <div class="col-sm-6 col-md-4">
+           <div class="thumbnail">
+              <img style="opacity: 0.4; filter: alpha(opacity=40);" 
+                     src="img/tb-pic1.jpg" class="img-responsive" alt="">
+              <div class="caption">
+              <h3>Thumbnail label</h3>
+                <p>...</p>
+                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+             </div>
+          </div>
+         </div>
+         </div>    
+      </div>  
+    -->
+        
+    </div>
+  
+</section>
+
+
+<section style="background-color:#F8F8DD">
+    <div class="container">
+        
+          <div class="ApartmentContainer" style="background-color:#F8F8F8">
+            
+           
+                   
+           <div class="row" style="background-color:#F0F0F0;height:105px;width:956px">
+            
+            <h1 style="float:left;margin-left:10px">{{pageContent.length}} Apartments</h1>
+               
+              <sort-option sort-condition = "sortByAttr(attr)" 
+                         style="float:right;margin-top:15px;margin-right:5px"></sort-option>
+           </div>
+ 
+        
+         <div class="row" ng-repeat = "apartment in pageContent" 
+            ng-click="onClick(apartment)"
+            ng-class="{selected: apartment == highlightedItem}"
+              style="margin-top:-2px;margin-left:-12px;margin-right:-5px;
+                     margin-bottom:15px;border-style:outset">
+             
+             <div class="col-md-7">
+               <img style="opacity: 0.8; margin-top:-2px;margin-left:-18px;filter: alpha(opacity=40);" 
+               src="image/{{apartment.image}}" class="img-responsive" alt="">
+             </div>
+             
+             <div class="col-md-5">
+              <div style="float:left">
+                  <h1><a ui-sref="detail({imgId:apartment.Id,
+                      imgSrc: apartment.image,imgName:apartment.name})">{{apartment.name}}</a>  
+                  </h>                   
+                  <hr>    
+                  <h2 style="font-color:#000000;">
+                      {{apartment.description}}</h2>
+              </div>
+                
+               
+               
+               <div style="float:right;position: absolute;bottom: -160px;right: 20px;">
+                <p style="display:inline">From</p>
+                <p style="display:inline;color:#FFA500;font-weight: bold;font-size: 320%">   
+                    ${{apartment.price}}</p>
+                <p style="margin-bottom:20px;margin-right:5px;margin-top:-10px;padding:0">USD/Month</p>
+              </div>
+                
+                
+             </div>
+             
+            <hr> 
+             
+        </div>
+      </div>
+    
+    </div>
+</section>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+<!--    
