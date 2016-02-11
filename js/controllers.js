@@ -21,7 +21,7 @@ angular.module("app").controller('MainCtrl',function($scope) {
 angular.module("app").controller('DetailCtrl',function($scope,$stateParams) {
 
     $scope.imageId = $stateParams.imageId;
-    $scope.imgSrc = 'api/' + $stateParams.imgSrc;
+    $scope.imgSrc = 'Img/' + $stateParams.imgSrc;
     $scope.imgName = $stateParams.imgName;
     
     
